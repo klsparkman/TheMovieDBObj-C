@@ -31,6 +31,4 @@
     
     return [self initWithTitle:title rating:rating overview:overview];
 }
-
-
 @end

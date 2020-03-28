@@ -17,7 +17,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, readonly) NSString *overview;
 
 - (instancetype)initWithTitle:(NSString *)title rating:(NSNumber *)rating overview:(NSString *)overview;
-
 - (instancetype)initWithDictionary:(NSDictionary *)dictionary;
 
 @end

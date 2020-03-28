@@ -15,6 +15,7 @@
 		35A530C5242FE3BB000B6E7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35A530C3242FE3BB000B6E7A /* LaunchScreen.storyboard */; };
 		35A530C8242FE3BB000B6E7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A530C7242FE3BB000B6E7A /* main.m */; };
 		35A530D6242FE644000B6E7A /* MDBMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A530D5242FE644000B6E7A /* MDBMovie.m */; };
+		35A530D9242FE82A000B6E7A /* MDBMovieController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A530D8242FE82A000B6E7A /* MDBMovieController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		35A530C7242FE3BB000B6E7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		35A530D4242FE644000B6E7A /* MDBMovie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDBMovie.h; sourceTree = "<group>"; };
 		35A530D5242FE644000B6E7A /* MDBMovie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDBMovie.m; sourceTree = "<group>"; };
+		35A530D7242FE82A000B6E7A /* MDBMovieController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDBMovieController.h; sourceTree = "<group>"; };
+		35A530D8242FE82A000B6E7A /* MDBMovieController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDBMovieController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,8 @@
 		35A530D0242FE5C6000B6E7A /* ModelController */ = {
 			isa = PBXGroup;
 			children = (
+				35A530D7242FE82A000B6E7A /* MDBMovieController.h */,
+				35A530D8242FE82A000B6E7A /* MDBMovieController.m */,
 			);
 			path = ModelController;
 			sourceTree = "<group>";
@@ -204,6 +209,7 @@
 				35A530B7242FE3BA000B6E7A /* AppDelegate.m in Sources */,
 				35A530D6242FE644000B6E7A /* MDBMovie.m in Sources */,
 				35A530C8242FE3BB000B6E7A /* main.m in Sources */,
+				35A530D9242FE82A000B6E7A /* MDBMovieController.m in Sources */,
 				35A530BA242FE3BA000B6E7A /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
