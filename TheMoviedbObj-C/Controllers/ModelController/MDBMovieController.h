@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface MDBMovieController : NSObject
 
--(void)fetchMovie:(NSString *)searchTerm completion:(void (^)(NSArray<MDBMovie*> *))completion;
++ (void)fetchMovie:(NSString *)searchTerm completion:(void (^)(NSArray<MDBMovie*> *))completion;
 
 @end
 

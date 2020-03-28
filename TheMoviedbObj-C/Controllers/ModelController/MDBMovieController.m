@@ -19,7 +19,8 @@ static NSString * const imageQueryString = @"kqjL17yufvn9OVLyXYpvtyrFfak.jpg";
 
 @implementation MDBMovieController
 
-- (void)fetchMovie:(NSString *)searchTerm completion:(void (^)(NSArray<MDBMovie *> *))completion
+//instance func
++ (void)fetchMovie:(NSString *)searchTerm completion:(void (^)(NSArray<MDBMovie *> *))completion
 {
     NSURL *baseURL = [NSURL URLWithString:baseURLString];
     baseURL = [baseURL URLByAppendingPathComponent:movieEndpoint];
