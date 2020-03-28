@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		35A530B7242FE3BA000B6E7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A530B6242FE3BA000B6E7A /* AppDelegate.m */; };
 		35A530BA242FE3BA000B6E7A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A530B9242FE3BA000B6E7A /* SceneDelegate.m */; };
-		35A530BD242FE3BA000B6E7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A530BC242FE3BA000B6E7A /* ViewController.m */; };
 		35A530C0242FE3BA000B6E7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35A530BE242FE3BA000B6E7A /* Main.storyboard */; };
 		35A530C2242FE3BB000B6E7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35A530C1242FE3BB000B6E7A /* Assets.xcassets */; };
 		35A530C5242FE3BB000B6E7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35A530C3242FE3BB000B6E7A /* LaunchScreen.storyboard */; };
 		35A530C8242FE3BB000B6E7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A530C7242FE3BB000B6E7A /* main.m */; };
 		35A530D6242FE644000B6E7A /* MDBMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A530D5242FE644000B6E7A /* MDBMovie.m */; };
 		35A530D9242FE82A000B6E7A /* MDBMovieController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A530D8242FE82A000B6E7A /* MDBMovieController.m */; };
+		35A530DC242FEB2D000B6E7A /* MovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A530DB242FEB2D000B6E7A /* MovieTableViewController.swift */; };
+		35A530DE242FEC03000B6E7A /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A530DD242FEC03000B6E7A /* MovieTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +25,6 @@
 		35A530B6242FE3BA000B6E7A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		35A530B8242FE3BA000B6E7A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		35A530B9242FE3BA000B6E7A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		35A530BB242FE3BA000B6E7A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		35A530BC242FE3BA000B6E7A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		35A530BF242FE3BA000B6E7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		35A530C1242FE3BB000B6E7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35A530C4242FE3BB000B6E7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +34,9 @@
 		35A530D5242FE644000B6E7A /* MDBMovie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDBMovie.m; sourceTree = "<group>"; };
 		35A530D7242FE82A000B6E7A /* MDBMovieController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDBMovieController.h; sourceTree = "<group>"; };
 		35A530D8242FE82A000B6E7A /* MDBMovieController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDBMovieController.m; sourceTree = "<group>"; };
+		35A530DA242FEB2D000B6E7A /* TheMoviedbObj-C-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TheMoviedbObj-C-Bridging-Header.h"; sourceTree = "<group>"; };
+		35A530DB242FEB2D000B6E7A /* MovieTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewController.swift; sourceTree = "<group>"; };
+		35A530DD242FEC03000B6E7A /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,9 +73,6 @@
 				35A530D2242FE5D4000B6E7A /* Views */,
 				35A530CF242FE5C0000B6E7A /* Controllers */,
 				35A530CE242FE5A3000B6E7A /* Resources */,
-				35A530BB242FE3BA000B6E7A /* ViewController.h */,
-				35A530BC242FE3BA000B6E7A /* ViewController.m */,
-				35A530BE242FE3BA000B6E7A /* Main.storyboard */,
 			);
 			path = "TheMoviedbObj-C";
 			sourceTree = "<group>";
@@ -89,6 +88,7 @@
 				35A530C3242FE3BB000B6E7A /* LaunchScreen.storyboard */,
 				35A530C6242FE3BB000B6E7A /* Info.plist */,
 				35A530C7242FE3BB000B6E7A /* main.m */,
+				35A530DA242FEB2D000B6E7A /* TheMoviedbObj-C-Bridging-Header.h */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -114,6 +114,7 @@
 		35A530D1242FE5CD000B6E7A /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				35A530DB242FEB2D000B6E7A /* MovieTableViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -121,6 +122,8 @@
 		35A530D2242FE5D4000B6E7A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				35A530BE242FE3BA000B6E7A /* Main.storyboard */,
+				35A530DD242FEC03000B6E7A /* MovieTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 				TargetAttributes = {
 					35A530B1242FE3BA000B6E7A = {
 						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
 					};
 				};
 			};
@@ -205,9 +209,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35A530BD242FE3BA000B6E7A /* ViewController.m in Sources */,
 				35A530B7242FE3BA000B6E7A /* AppDelegate.m in Sources */,
 				35A530D6242FE644000B6E7A /* MDBMovie.m in Sources */,
+				35A530DE242FEC03000B6E7A /* MovieTableViewCell.swift in Sources */,
+				35A530DC242FEB2D000B6E7A /* MovieTableViewController.swift in Sources */,
 				35A530C8242FE3BB000B6E7A /* main.m in Sources */,
 				35A530D9242FE82A000B6E7A /* MDBMovieController.m in Sources */,
 				35A530BA242FE3BA000B6E7A /* SceneDelegate.m in Sources */,
@@ -350,6 +355,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "TheMoviedbObj-C/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +364,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.DMA.TheMoviedbObj-C";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TheMoviedbObj-C/Resources/TheMoviedbObj-C-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -366,6 +375,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "TheMoviedbObj-C/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -374,6 +384,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.DMA.TheMoviedbObj-C";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TheMoviedbObj-C/Resources/TheMoviedbObj-C-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
