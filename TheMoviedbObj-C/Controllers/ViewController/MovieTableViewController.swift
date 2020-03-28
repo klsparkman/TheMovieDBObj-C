@@ -18,6 +18,7 @@ class MovieTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         movieSearchBar.delegate = self
+        tableView.rowHeight = 100
     }
 
     // MARK: - Table view data source
